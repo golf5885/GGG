@@ -20,7 +20,7 @@ def getMenu(diningHall):
     else:
         url += "Breakfast"
 
-    headers = {'ucsb-api-key': 'tSF72NnUFUe12xjLDWP6nAzBKa1pAqbP'}  # header to pass in api key
+    headers = {'ucsb-api-key': ''}  # header to pass in api key
 
     r = requests.get(url, headers=headers)  # getting request
     ret = r.json()
